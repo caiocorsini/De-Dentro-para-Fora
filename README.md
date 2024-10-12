@@ -8,9 +8,6 @@
 
 **Como executar no terminal do Windows:**  
 ****
-**C**
-```bash
-```
 
 **Java**
 ```bash
