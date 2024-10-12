@@ -12,7 +12,7 @@ public class Main {
         N = inputUser.nextInt();
         int fim,meio;
 
-        inputUser.nextLine();
+        inputUser.nextLine(); // Buffer para pegar quebra de linha (necessario em java)
         for(int i=0; i<N; i++){ // Vai iterar o número de vezes que o usuário especificou
             linhaAtual = inputUser.nextLine(); // Digita a String defeituosa
             fim = linhaAtual.length() -1;
@@ -33,7 +33,7 @@ public class Main {
             // Vai incrementando a String de impressão
             // Loop eh interrompido quando volto para o meio
             while(j != meio){
-                if(j==-1) j=fim; // Para dar a volta ao ponteiro chegar no início da String
+                if(j==-1) j=fim; // Quando o ponteiro chega na primeira letra da String, dá a volta para a letra final
                 consertado += linhaAtual.charAt(j);
                 j--;
             }

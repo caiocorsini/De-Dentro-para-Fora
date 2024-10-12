@@ -20,4 +20,5 @@ OBS: nome da classe tem que ser Main para rodar no beecrowd.
 
 **Python**
 ```bash
+cd "<Diretorio onde está o programa>" && python deDentroParaFora.py
 ```
