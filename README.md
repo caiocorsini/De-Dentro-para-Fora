@@ -16,7 +16,7 @@
 ```bash
 cd "<Diretorio onde está o programa>" && javac Main.java && java Main
 ```
-OBS: nome da classe tem que ser Main para rodar no beecrowd. Por isso não é nomeado "abaixoDaDiagonalSecundaria" como os outros
+OBS: nome da classe tem que ser Main para rodar no beecrowd.
 
 **Python**
 ```bash
